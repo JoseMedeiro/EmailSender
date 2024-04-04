@@ -1,0 +1,49 @@
+[
+    {   "attribute":"To",
+        "metadata":true,
+        "default_behavior":{
+            "name":"default",
+            "attribute":"reciever_list"
+        },
+        "type":"array",
+        "exception":    false
+    },
+    {   "attribute":"From",
+        "metadata":true,
+        "default_behavior":{
+            "name":"default",
+            "attribute":"user"
+        },
+        "exception":    false
+    },
+    {   "attribute": "Date",
+        "metadata":true,
+        "default_behavior":{
+            "name":"default"
+        },
+        "exception":    false,
+        "type":         "date"
+    },
+    {   "attribute": "Subject",
+        "metadata":true,
+        "default_behavior":{
+            "name":""
+        },
+        "exception":    false
+    },
+    {   "attribute": "reciever_list",
+        "metadata":false,
+        "default_behavior":{
+            "name":null
+        },
+        "type":"array",
+        "exception": true    
+    },
+    {   "attribute": "Body",
+        "metadata":false,
+        "default_behavior":{
+            "name":null
+        },
+        "exception": true    
+    }
+]

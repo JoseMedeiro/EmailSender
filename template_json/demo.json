@@ -1,0 +1,18 @@
+{
+    "From":     "Gaang <gaang@gmail.com>",
+    "To":       null,
+    "Cc":       null,
+    "Bcc":      null,
+    "Reply-To": "Gaang <gaang@gmail.com>",
+    "Date":     "default",
+    "Subject":  "[ATLA] Candidatura",
+
+    "body":"template_body/demo",
+
+    "signature":"template_body/signature",
+    "name":     null,
+    "projects": null,
+    "teams":    null,
+    "gender":   null,
+    "_id":      null
+}

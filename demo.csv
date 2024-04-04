@@ -1,0 +1,5 @@
+﻿name;_id;email;gender;project;teams;Passou;Aceitou;Estrutura;Laboratório
+João;1;joao@tecnico.ulisboa.pt;M;N;POWER;VERDADEIRO;VERDADEIRO;VERDADEIRO;VERDADEIRO
+Maria;2;maria@tecnico.ulisboa.pt;F;SW;FORCE;VERDADEIRO;VERDADEIRO;VERDADEIRO;VERDADEIRO
+Maria;2;maria@tecnico.ulisboa.pt;F;SW;WATER;VERDADEIRO;VERDADEIRO;VERDADEIRO;VERDADEIRO
+Cardoso;3;cardoso@tecnico.ulisboa.pt;M;E;EARTH;FALSO;FALSO;FALSO;FALSO

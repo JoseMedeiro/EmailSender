@@ -1,0 +1,5 @@
+{
+    "server":"mail.tecnico.ulisboa.pt",
+    "smtp_port":465,
+    "imap_port":993
+}
