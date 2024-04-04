@@ -4,7 +4,7 @@ import time
 LIMIT_PER_MINUTE = 50
 def create_and_send_emails(l:list,session:dict,
                            custom_reciever=None,
-                           in_cc=True, N=-1):
+                           in_cc=True, N:int=None):
     session = server_session(session)
     session.smtp_login()
     session.imap_login()

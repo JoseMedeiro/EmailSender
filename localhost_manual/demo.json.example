@@ -1,0 +1,22 @@
+[
+    {
+        "metadata": {
+            "From": "Gaang <gaang@gmail.com>",
+            "To": "joao@tecnico.ulisboa.pt",
+            "Cc": null,
+            "Bcc": null,
+            "Reply-To": "Gaang <gaang@gmail.com>",
+            "Date": "default",
+            "Subject": "[ATLA] Candidatura"
+        },
+        "body": "template_body/demo",
+        "fields": {
+            "signature": "template_body/signature",
+            "name": "Jo\u00e3o",
+            "projects": null,
+            "teams": "POWER",
+            "gender": "M",
+            "_id": "1"
+        }
+    }
+]

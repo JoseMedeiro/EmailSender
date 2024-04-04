@@ -17,7 +17,7 @@ def unique_array_dict(l1:list,query_keys:list=['_id'])->list:
     for e in l1:
         query = {}
         for k in query_keys:
-            query[k] = e[k]
+            query[k] = e['fields'][k]
         if find_in_array_dict(l2,query) == -1:
             l2.append(e)
     return l2
