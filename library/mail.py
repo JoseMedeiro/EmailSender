@@ -180,14 +180,14 @@ def define_recievers_email(metadata,custom_reciever:dict|list|None = None,in_cc:
                         'b':    []}
         if custom_reciever['Cc'] != None:
             reciever_pre['b'].extend(force_list(custom_reciever['Cc'].split(", ")))
-        if custom_reciever['Cc'] != None:
+        if custom_reciever['Bcc'] != None:
             reciever_pre['b'].extend(force_list(custom_reciever['Bcc'].split(", ")))
     else:
         reciever_pre = {'a':    force_list(metadata['To'].split(", ")),
                         'b':    []}
         if metadata['Cc'] != None:
             reciever_pre['b'].extend(force_list(metadata['Cc'].split(", ")))
-        if metadata['Cc'] != None:
+        if metadata['Bcc'] != None:
             reciever_pre['b'].extend(force_list(metadata['Bcc'].split(", ")))
     reciever = reciever_pre['a']
     if in_cc and custom_reciever==None:
